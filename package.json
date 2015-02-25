@@ -1,0 +1,16 @@
+{
+    "name": "GruntProject",
+    "version": "0.0.1",
+    "description": "Minify resources",
+    "main": "Gruntfile.js",
+    "author": "Minh Tri Nguyen",
+    "license": "GPL",
+    "devDependencies": {
+         "grunt": "~0.4.1",
+         "grunt-contrib-uglify": "~0.2.2",
+         "grunt-contrib-cssmin": "~0.6.1",
+         "grunt-contrib-sass": "~0.2.0",        
+         "grunt-contrib-concat": "~0.3.0",
+         "grunt-contrib-watch": "~0.6.1"
+    }
+}
