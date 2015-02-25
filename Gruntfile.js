@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 	watch: {
       stylesheets: {
         files: ['assets/**/*.css', 'assets/**/*.scss'],
-        tasks: ['concat', 'cssmin', 'sass']
+        tasks: ['sass', 'concat', 'cssmin']
       },
       
       scripts: {
